@@ -1,0 +1,89 @@
+.mainWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.card {
+  border: dashed black;
+  height: 500px;
+  width: 300px;
+  display: flex;
+  page-break-inside: avoid;
+}
+
+.cardInner {
+  margin: auto;
+  height: 465px;
+  width: 265px;
+  border: solid black;
+  padding: 10px;
+}
+
+.title {
+  height: 100px;
+  border: solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.2em;
+  background-color: var(--card-colour);
+  padding: 20px;
+  text-align: center;
+  line-height: 1.4em;
+}
+
+.content {
+  padding: 5px;
+}
+
+.mainPriceContainer {
+  display: flex;
+  font-size: 1.15em;
+  margin: 8px 0;
+}
+.mainPriceLabel {
+  flex: 1;
+}
+
+.mainPriceNumber {
+}
+
+.rentPriceContainer {
+  display: flex;
+  font-size: 1em;
+  margin: 8px 0;
+}
+.rentPriceLabel {
+  flex: 1;
+}
+
+.rentPriceNumber {
+}
+
+.colour-1 {
+  --card-colour: #9a4c2b;
+}
+.colour-2 {
+  --card-colour: #b1defa;
+}
+.colour-3 {
+  --card-colour: #d73387;
+}
+.colour-4 {
+  --card-colour: #ff9400;
+}
+.colour-5 {
+  --card-colour: #de0e1d;
+}
+.colour-6 {
+  --card-colour: #f9f100;
+}
+.colour-7 {
+  --card-colour: #00aa52;
+}
+.colour-8 {
+  --card-colour: #0067ba;
+}
